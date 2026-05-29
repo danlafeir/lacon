@@ -1,0 +1,8 @@
+fn factorial(n: Int) -> Int {
+  if n == 0 then 1 else n * factorial(n - 1)
+}
+
+fn main() -> Result<Unit, String> {
+  print(factorial(10))
+  Ok(Unit)
+}

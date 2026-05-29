@@ -1,0 +1,15 @@
+[package]
+name    = "lacon"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "lacon"
+path = "src/main.rs"
+
+[dependencies]
+lacon-lexer  = { path = "../lacon-lexer" }
+lacon-parser = { path = "../lacon-parser" }
+lacon-eval   = { path = "../lacon-eval" }
+ariadne      = { workspace = true }
+smol_str     = { workspace = true }

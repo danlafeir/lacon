@@ -1,0 +1,6 @@
+fn add(x: Int, y: Int) -> Int { x + y }
+
+fn main() -> Result<Unit, String> {
+  print(add(3, 4))
+  Ok(Unit)
+}

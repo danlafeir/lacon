@@ -1,0 +1,6 @@
+fn double(x: Int) -> Int { x * 2 }
+
+fn main() -> Result<Unit, String> {
+  print([1, 2, 3, 4, 5] |> filter(\x -> x > 2) |> map(double))
+  Ok(Unit)
+}

@@ -1,0 +1,10 @@
+[package]
+name    = "lacon-parser"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lacon-lexer = { path = "../lacon-lexer" }
+chumsky     = { workspace = true }
+ariadne     = { workspace = true }
+smol_str    = { workspace = true }

@@ -1,0 +1,9 @@
+[package]
+name    = "lacon-eval"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lacon-parser = { path = "../lacon-parser" }
+thiserror    = { workspace = true }
+smol_str     = { workspace = true }

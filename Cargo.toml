@@ -1,0 +1,16 @@
+[workspace]
+members = [
+    "crates/lacon-lexer",
+    "crates/lacon-parser",
+    "crates/lacon-eval",
+    "crates/lacon",
+]
+resolver = "2"
+
+[workspace.dependencies]
+logos     = "0.14"
+chumsky   = "0.9"
+ariadne   = "0.4"
+tokio     = { version = "1", features = ["full"] }
+thiserror = "1"
+smol_str  = "0.2"
